@@ -1,0 +1,551 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Waters | Mailbox</title>
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Modernize Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+         alert ("This is a trial website");
+    </script>
+    <!-- //Meta Tags -->
+
+    <!-- Style-sheets -->
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Bootstrap Css -->
+    <!-- Common Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// Common Css -->
+    <!-- Nav Css -->
+    <link rel="stylesheet" href="css/style4.css">
+    <!--// Nav Css -->
+    <!-- Fontawesome Css -->
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <!--// Fontawesome Css -->
+    <!--// Style-sheets -->
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+    <script src="first.js"></script> 
+    <script src="main.js"></script>  
+    <script src="mm.js"></script> 
+
+
+    <!--web-fonts-->
+    <link href="//fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!--//web-fonts-->
+</head>
+
+<body>
+  
+
+     <div class="wrapper">
+        <!-- Sidebar Holder -->
+       <nav id="sidebar">
+            <div class="sidebar-header">
+                <h1>
+                    <a href="index.html">Waters</a>
+                </h1>
+                <span>W</span>
+            </div>
+            <div class="profile-bg"></div>
+            <ul class="list-unstyled components">
+                <li >
+                    <a href="index.html">
+                        <i class="fas fa-th-large"></i>
+                        Live Status
+                    </a>
+                </li>
+                <li>
+                    <a href="tables.html">
+                        <i class="fas fa-laptop"></i>
+                        Report
+                    </a>
+                </li>
+                <li>
+                    <a href="charts.html">
+                        <i class="fas fa-chart-pie"></i>
+                        Error Report
+                    </a>
+                </li>
+                
+                
+                <li class="active">
+                    <a href="mailbox.html">
+                        <i class="far fa-envelope"></i>
+                        Mailbox
+                        <span class="badge badge-secondary float-md-right bg-danger">5 New</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="pricing.html">
+                        <i class="fas fa-table"></i>
+                        Pricing Tables
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="maps.html">
+                        <i class="far fa-map"></i>
+                        Maps
+                    </a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false">
+                        <i class="fas fa-users"></i>
+                        Devices
+                        <i class="fas fa-angle-down fa-pull-right"></i>
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu3">
+                         <li>
+                            <a href="jo.html">Register</a>
+                        </li>
+                        <li>
+                            <a href="re.html">Remove</a>
+                        </li>
+                       
+                       
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        ;
+        <!-- Page Content Holder -->
+          <div id="content">
+            <!-- top-bar -->
+            <nav class="navbar navbar-default mb-xl-5 mb-4">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    <!-- Search-from -->
+                    <H3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WATERS</H3>
+                    <!--// Search-from -->
+                    <ul class="top-icons float-right">
+                        
+                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <i class="far fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu drop-3">
+                                <div class="profile d-flex mr-o">
+                                    <div class="profile-l align-self-center">
+                                        <img height="75" width="60" >
+                                        
+                                    </div>
+                                    <div class="profile-r align-self-center">
+                                        <h3 class="sub-title"><p id="name"></p></h3>
+                                        <a href="mailto:info@waters.ml"><p id="mail"></p></a>
+                                    </div>
+                                </div>
+                                <a href="profile.html" class="dropdown-item mt-3">
+                                    <h4>
+                                        <i class="far fa-user mr-3"></i>My Profile</h4>
+                                </a>
+                                
+                                <a href="Mailbox.html" class="dropdown-item mt-3">
+                                    <h4>
+                                        <i class="far fa-envelope mr-3"></i>Messages</h4>
+                                </a>
+                                <a href="http://community.waters.ml/" class="dropdown-item mt-3">
+                                    <h4>
+                                        <i class="far fa-question-circle mr-3"></i>Faq</h4>
+                                </a>
+                                <a href="https://tawk.to/chat/5cc587464aa6620df2cf8da7/default" class="dropdown-item mt-3">
+                                    <h4>
+                                        <i class="far fa-thumbs-up mr-3"></i>Support</h4>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="logout.html">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--// top-bar -->
+
+            <!-- main-heading -->
+            <h2 class="main-title mb-2 text-center">Mailbox</h2>
+            <!--// main-heading -->
+
+            <!-- Inbox Page -->
+            <!-- Inbox topnav -->
+            <nav class="inbox-nav p-3 bg-dark text-white">
+                <div class="row">
+                    <div class="inbox-topl col-6">
+                        <ul class="d-flex justify-content-between">
+                            <li>
+                                <a href="#" class="email-menu">
+                                    <i class="fas fa-bars"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="email-type">Primary</a>
+                            </li>
+                            <li class="right">
+                                <a href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="inbox-topr col-6">
+                        <ul class="right d-flex justify-content-end">
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-archive"></i>
+                                </a>
+                            </li>
+                            <li class="mx-4">
+                                <a href="#">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li class="ml-4">
+                                <a href="#">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Inbox topnav -->
+
+            <!-- Inbox content -->
+            <!--// Inbox content -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="index-lcontent col-xl-6">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- left-strip -->
+                                <div class="inbox-side-strip px-2 py-3 col-3">
+                                    <ul class="text-center">
+                                        <li>
+                                            <img src="images/profile.jpg" class="img-fluid rounded-circle" alt="Responsive image">
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-inbox"></i>
+                                            </a>
+                                            Inbox
+                                            <span class="badge">4</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="far fa-paper-plane"></i>
+                                            </a>
+                                            Draft
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-redo-alt"></i>
+                                            </a>
+                                            Outbox
+                                            <span class="badge">6</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="far fa-share-square"></i>
+                                            </a>
+                                            Sent
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="far fa-trash-alt"></i>
+                                            </a>
+                                            Trash
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //left-strip -->
+
+                                <!-- right-strip -->
+
+                                <div class="email-list col-9">
+                                    <ul class="collection">
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <i class="fas fa-users text-primary align-self-center mr-3"></i>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Social</span>
+                                                <p class="paragraph">You have Google+ request from john doe.</p>
+                                            </div>
+                                            <a href="#" class="ml-2">
+                                                <span class="badge badge-secondary bg-primary">4 New</span>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <i class="fas fa-tag text-success mr-3"></i>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Promotions</span>
+                                                <p class="paragraph">Amazon, Flipkart 50% off on summer sale.</p>
+                                            </div>
+                                            <a href="#" class="secondary-content">
+                                                <span class="badge badge-secondary bg-success">5 New</span>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <i class="fas fa-exclamation-circle text-warning mr-3"></i>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Updates</span>
+                                                <p class="paragraph">Google play application updates for your mobile.</p>
+                                            </div>
+                                            <a href="#" class="secondary-content">
+                                                <span class="badge badge-secondary bg-warning">2 New</span>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <span class="circle mr-3">A</span>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Amazon.com</span>
+                                                <p class="paragraph">Summer sale is now going on.</p>
+                                            </div>
+                                            <a href="#" class="email-time">
+                                                <small class="text-primary">12:10 am</small>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item selected d-flex justify-content-between">
+                                            <img src="images/profile.jpg" alt="" class="img-fluid mr-3">
+                                            <div class="mid-cn">
+                                                <span class="email-title">Andy Brown</span>
+                                                <p class="paragraph">Hay Joe, we have next project for this summer.</p>
+                                            </div>
+                                            <a href="#" class="email-time">
+                                                <i class="mdi-editor-attach-file attach-file"></i>
+                                                <small class="text-secondary">12:10 am</small>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <span class="circle mr-3">T</span>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Tuts+</span>
+                                                <p class="paragraph">Update your code skill, free tutorial for web development.</p>
+                                            </div>
+                                            <a href="#" class="email-time">
+                                                <small class="text-primary">2:05 am</small>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <span class="circle mr-3 bg-primary">F</span>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Facebook.com</span>
+                                                <p class="paragraph">You have new friend request from emy nelson.</p>
+                                            </div>
+                                            <a href="#" class="email-time">
+                                                <small class="text-primary">1:15 pm</small>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <span class="circle mr-3 bg-dark">T</span>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Twitter</span>
+                                                <p class="paragraph">You have 5 new followers today, let's check it out.</p>
+                                            </div>
+                                            <a href="#" class="email-time">
+                                                <small class="text-primary">8:30 pm</small>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <span class="circle mr-3">E</span>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Envato Studio</span>
+                                                <p class="paragraph">Envato Studio Provider News : Score the new stuff.</p>
+                                            </div>
+                                            <a href="#" class="email-time">
+                                                <small class="text-primary">5:18 am</small>
+                                            </a>
+                                        </li>
+                                        <li class="collection-item d-flex justify-content-between">
+                                            <span class="circle mr-3">G</span>
+                                            <div class="mid-cn">
+                                                <span class="email-title">Gmail</span>
+                                                <p class="paragraph">You have 5 new mail today.</p>
+                                            </div>
+                                            <a href="#" class="email-time">
+                                                <small class="text-primary">6:38 am</small>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- right-strip -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="index-rcontent col-xl-6 mt-xl-0 mt-3">
+                        <div class="outer">
+                            <p class="paragraph font-weight-bold">New app design for iPhone
+                                <mark>inbox</mark>
+                                <mark>projects
+                                </mark>
+                                <i class="mdi-action-star-rate yellow-text text-darken-3 right"></i>
+                            </p>
+                            <hr class="grey-text text-lighten-2">
+                            <div class="email-content-wrap">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <ul class="collection">
+                                            <li class="collection-item selected d-flex justify-content-between">
+                                                <img src="images/profile.jpg" alt="" class="rounded-circle mr-3">
+                                                <div class="mid-cn">
+                                                    <span class="email-title">Andy Brown</span>
+                                                    <br>
+                                                    <small class="text-primary">To me, John Doe</small>
+                                                    <br>
+                                                    <small class="text-primary">Yesterday</small>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 email-actions d-flex justify-content-end">
+                                        <a href="#" class="mr-4">
+                                            <i class="fas fa-reply"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="email-content">
+                                    <p class="paragraph">Hi Mike,</p>
+                                    <p class="paragraph">Sed ut perspiciatis unde omnis iste natus error.</p>
+                                    <p class="paragraph">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                    <p class="paragraph font-weight-normal">Cheers!
+                                        <br>Andy Brown</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="email-content-wrap">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <ul class="collection">
+                                            <li class="collection-item d-flex justify-content-between">
+                                                <span class="circle mr-3">M</span>
+                                                <div class="mid-cn">
+                                                    <span class="email-title">Mike Parker</span>
+                                                    <br>
+                                                    <small class="text-primary">To Andy Brown</small>
+                                                    <br>
+                                                    <small class="text-primary">6:10 pm</small>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 email-actions d-flex justify-content-end">
+                                        <a href="#" class="mr-3">
+                                            <i class="fas fa-reply"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="email-content">
+                                    <p class="paragraph">Hi Andy,</p>
+                                    <p class="paragraph">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                    <p class="paragraph">Regards,
+                                        <br>Mike Parker</p>
+                                </div>
+                            </div>
+                            <div class="email-reply mt-4">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <a href="#">
+                                            <i class="fas fa-reply"></i>
+                                        </a>
+                                        <small class="d-block text-secondary">Reply</small>
+                                    </div>
+                                    <div class="col text-center">
+                                        <a href="#">
+                                            <i class="fas fa-reply-all"></i>
+                                        </a>
+                                        <small class="d-block text-secondary">Reply all</small>
+                                    </div>
+                                    <div class="col text-center">
+                                        <a href="#">
+                                            <i class="fas fa-forward"></i>
+                                        </a>
+                                        <small class="d-block text-secondary">Forward</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Inbox Page -->
+            <!-- Copyright -->
+            <div class="copyright py-xl-3 py-2 mt-xl-5 mt-4 text-center">
+                <p>© 2019 Waters . All Rights Reserved.</p>
+            </div>
+            <!--// Copyright -->
+        </div>
+    </div>
+
+
+    <!-- Required common Js -->
+    <script src='js/jquery-2.2.3.min.js'></script>
+    <!-- //Required common Js -->
+
+    <!-- Sidebar-nav Js -->
+    <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+    <!--// Sidebar-nav Js -->
+
+    <!-- dropdown nav -->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!-- //dropdown nav -->
+
+    <!-- Js for bootstrap working-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- //Js for bootstrap working -->
+
+<!--End of Tawk.to Script-->
+</body>
+
+</html>
